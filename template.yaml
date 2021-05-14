@@ -16,7 +16,7 @@ Resources:
       Policies: AmazonDynamoDBFullAccess
       Runtime: nodejs12.x
       Events:
-        CreateBook: # 6
+        CreateBook:
           Type: Api
           Properties:
             Path: /books #7
