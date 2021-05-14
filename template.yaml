@@ -4,7 +4,7 @@ Resources: # (2)
   DynamoBooksTable: # (3)
     Type: AWS::Serverless::SimpleTable # (4)
     Properties:
-      TableName: books # (5)
+      TableName: books2
       PrimaryKey:
         Name: id # (6)
         Type: String
