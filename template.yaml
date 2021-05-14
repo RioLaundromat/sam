@@ -13,7 +13,7 @@ Resources:
     Properties:
       CodeUri: src/
       Handler: create-book.handler
-      Policies: AmazonDynamoDBFullAccess # 5
+      Policies: AmazonDynamoDBFullAccess
       Runtime: nodejs12.x
       Events:
         CreateBook: # 6
