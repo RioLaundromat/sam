@@ -8,8 +8,8 @@ Resources:
       PrimaryKey:
         Name: id
         Type: String
-  CreateBookFunction: # 1
-    Type: AWS::Serverless::Function # 2
+  CreateBookFunction:
+    Type: AWS::Serverless::Function
     Properties:
       CodeUri: src/ # 3
       Handler: create-book.handler # 4
