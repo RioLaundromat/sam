@@ -11,7 +11,7 @@ Resources:
   CreateBookFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: src/ # 3
+      CodeUri: src/
       Handler: create-book.handler # 4
       Policies: AmazonDynamoDBFullAccess # 5
       Runtime: nodejs12.x
